@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Prueba</title>
+    <link rel="stylesheet" href="css/prueba.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Productos</h1>
+        <form id="productForm">
+            <label for="productName">Nombre del Producto:</label>
+            <input type="text" id="productName" required>
+
+            <label for="productDescription">Descripción:</label>
+            <input type="text" id="productDescription" required>
+
+            <label for="productQuantity">Cantidad:</label>
+            <input type="number" id="productQuantity" required min="1">
+
+            <button type="submit">Crear Producto</button>
+        </form>
+        <button id="showProducts">Mostrar Productos en Consola</button>
+    </div>
+    <script src="js/prueba.js"></script>
+</body>
+</html>
